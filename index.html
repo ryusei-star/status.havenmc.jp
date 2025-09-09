@@ -618,7 +618,7 @@
             statusText.textContent = 'ステータス取得中...';
 
             try {
-                const response = await fetch('https://api.mcsrvstat.us/3/play.havenmc.f5.si');
+                const response = await fetch('https://api.havenmc.jp/status');
                 const data = await response.json();
 
                 const currentDate = new Date();
